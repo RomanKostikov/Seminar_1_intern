@@ -5,7 +5,7 @@
 // 8 -> 2, 4, 6, 8
 
 Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 int a = 2;
 while (a <= number)
 {

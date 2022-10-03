@@ -3,7 +3,7 @@
 // 2 -> " -2, -1, 0, 1, 2"
 
 Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 int a = number * -1;
 if(number < 0){
     while(number <= a){
